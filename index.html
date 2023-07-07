@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="h-screen flex flex-col justify-center item-center bg-slate-950">
+    <div class="bg-slate-900 w-[420px] h-[720px] flex flex-col mx-auto rounded-xl">
+      
+      <div class="w-[420px] h-[420px] absolute bg-cover bg-[url('image-equilibrium.jpg')] scale-90 rounded-xl "> 
+        
+      </div>
+        <div class="  flex flex-col justify-center group items-center scale-90 rounded-xl relative ">
+        <div class="w-[420px] h-[420px] bg-[#00FFFC] rounded-xl  opacity-0 group-active:opacity-50 active:cursor-pointer "></div>
+        <img src="icon-view.svg" alt="" class=" absolute opacity-0 group-active:opacity-100 active:cursor-pointer">
+        </div>
+       
+
+       <div>
+
+       </div>
+      <div class="flex flex-col text-2xl mx-8 gap-5">
+
+        <h1 class="text-white font-bold active:cursor-pointer active:text-[#00FFFC]">
+          Equilibrium #3429
+        </h1>
+        <p class="text-slate-500 text-md font-normal">Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="flex text-white justify-between	">
+          <div class="flex">
+          <img src="icon-ethereum.svg" alt="" class="w-[16px] scale-75 mr-2"><span class="text-md font-normal text-[#00FFFC]">0.041 ETH</span> 
+          </div>
+          <div class="flex items-center">
+            <img src="icon-clock.svg" alt="" class="w-[20px] h-[20px] mr-2"><span class="text-md font-normal text-slate-500"> 3 days left</span>
+          </div>
+        </div>
+        <!-- <div class="h-[64px] w-[64px] bg-cover bg-[url('image-avatar.png')]
+         active:bg-[url('image-equilibrium.jpg')] bg-cover"> </div> -->
+        
+      </div>
+      <hr class="my-4 mx-8 ">
+      <div class="flex items-center mx-8 my-4">
+        <img src="image-avatar.png" alt="" class="w-[40px] h-[40px] border-2 rounded-full mr-2">
+        <span class="text-slate-500 mr-2 text-xl font-normal ">Creation of</span>
+        <span  class="text-xl text-white active:cursor-pointer active:text-[#00FFFC]">Jules Wyvern</span>
+      </div>
+      
+
+    </div>
+  <div class="attribution pt-8 text-white font-3xl text-2xl">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hossein Valikhani</a>.
+  </div>
+</body>
+</html>
